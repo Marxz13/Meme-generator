@@ -1,0 +1,27 @@
+*{
+
+}
+body{
+    background-color:rgba(144,231,213);
+}
+
+.meme-generator{
+    text-align:center;
+}
+.meme-generator img {
+    height: 500px;
+    object-fit:cover;
+}
+
+.meme-generator .generate-meme-btn {
+    border:solid 1px black;
+    padding:8px 20px;
+    background-color:rgba(125,251,152);
+    margin:24px 0;
+    font-size:20px;
+    cursor:pointer;
+    transition: all 100ms ease;
+}
+.meme-generator .generate-meme-btn:hover{
+    opacity:0.7;
+}
